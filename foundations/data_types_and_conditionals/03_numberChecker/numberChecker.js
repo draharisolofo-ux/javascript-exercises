@@ -1,5 +1,6 @@
 function numberChecker(number) {
-  if (number === 6) {
+  console.log(number != 6 && number != 9);
+  if (number != 6 && number != 9) {
     return true;
   } else {
     return false;
